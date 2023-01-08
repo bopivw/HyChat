@@ -1,0 +1,13 @@
+name: HyChat
+version: '${project.version}'
+main: wtf.datta.hychat.HyChat
+api-version: 1.16
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+authors: [ datta ]
+description: Sistema de chat format
+commands:
+  drop:
+    description: a
+    permission: admin.drop
+    default: OP
